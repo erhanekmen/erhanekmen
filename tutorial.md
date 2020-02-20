@@ -62,20 +62,21 @@ ___
 1. Get the tutorial material
 
         cp -r /cta/users/eekmen/gwsta_alignment_tutorial gwsta_alignment_tutorial
+	
 2. Unzip the .gz files in __reads__ directory. 
 
         gunzip *.gz
 
 
-3. Creating Index Files in __index__ directory:
+3. Creating Index Files in __index__ directory (in .sh file):
 
        bowtie-build e_coli.fna e_coli
 
-4. Single-end Alignment:
+4. Single-end Alignment (in .sh file):
 
        bowtie index/e_coli reads/CZB152.solexa.fastq e_coli_solexa.map
 
-5. Paired-end Alignment:
+5. Paired-end Alignment (in .sh file):
 
        bowtie -p 2 index/e_coli -1 reads/b95edefdb9d82cb2423d97172223bbd4_1.fastq -2 reads/b95edefdb9d82cb2423d97172223bbd4_2.fastq e_coli_paired.map
 
