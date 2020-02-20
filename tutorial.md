@@ -31,8 +31,7 @@ bowtie:
 
 __Main arguments__
 
-    ebwt
-The basename of the index to be searched. 
+    __ebwt__: The basename of the index to be searched. 
 
     m1
 Comma-separated list of files containing the #1 mates (filename usually includes _1), or, if -c is specified, the mate sequences themselves.
