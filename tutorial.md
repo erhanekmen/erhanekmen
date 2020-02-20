@@ -1,9 +1,10 @@
 ## __Alignment Tutorial | Bowtie__
 
 --- 
-
+<p align="center">
 <img src="RNAseqWorkflow.png" alt="rna"
 	title="RNA" width="250" height="350" />
+</p>
 
 After quality control and optional adapter trimming of our data, alignment is usually the next step. Alignment tools provide us to determine where in the genome the reads originated from. To apply this procedure, we first need a reference genome to map our reads. If your read is spliced such as RNA-seq data, then, spliced transcripts alignment tools such as STAR aligner would be the right choice. 
 
