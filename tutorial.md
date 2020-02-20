@@ -2,7 +2,7 @@
 
 --- 
 
-[image1]
+![image](RNAseqWorkflow.png)
 After quality control and optional adapter trimming of our data, alignment is usually the next step. Alignment tools provide us to determine where in the genome the reads originated from. To apply this procedure, we first need a reference genome to map our reads. If your read is spliced such as RNA-seq data, then, spliced transcripts alignment tools such as STAR aligner would be the right choice. 
 
 How does alignment algorithm work?
