@@ -19,7 +19,7 @@ Reads are aligned to a reference sequence. The alignment process may allow one o
 ___
 ### __Materials__
 ___
-1. [Escherichia coli O157:H7 str. Sakai DNA, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/BA000007) as .fna file in index directory. 
+1. [Escherichia coli O157:H7 str. Sakai DNA, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/BA000007) as .fna file in __index__ directory. 
 2. Paired-end [E. coli sequence](https://www.ncbi.nlm.nih.gov/sra/SRX7753100[accn]) from GenomeTrakr Project: Washington Stat  Department of Health as .fastq file in __reads__ directory. 
 3. Single-end [E. coli sequence](https://www.ncbi.nlm.nih.gov/sra/SRX7364424[accn]) from The University of Texas at Austin as .fastq file in __reads__ directory.
 
