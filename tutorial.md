@@ -34,22 +34,22 @@ __Main arguments__
 <ebwt>
 The basename of the index to be searched. 
 
-<m1>
+- <m1>
 Comma-separated list of files containing the #1 mates (filename usually includes _1), or, if -c is specified, the mate sequences themselves.
 
-<m2>
+- <m2>
 Comma-separated list of files containing the #2 mates (filename usually includes _2), or, if -c is specified, the mate sequences themselves. E.g., this might be flyA_2.fq,flyB_2.fq, or, if -c is specified, this might be GGTCATCCT,ACGGGTCGT.
 
-<r>
+- <r>
 Comma-separated list of files containing a mix of unpaired and paired-end reads in Tab-delimited format. Tab-delimited format is a 1-read-per-line format where unpaired reads consist of a read name, sequence and quality string each separated by tabs. 
 
-<i>
+- <i>
 A comma-separated list of interleaved paired-end FASTQ files, where the records for the mate #1s are interleaved with the records for the mate #2s. Reads may be a mix of different lengths. 
 
-<s>
+- <s>
 A comma-separated list of files containing unpaired reads to be aligned, or, if -c is specified, the unpaired read sequences themselves. 
 
-<hit>
+- <hit>
 File to write alignments to. 
 	
 ___
