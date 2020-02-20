@@ -20,9 +20,11 @@ ___
 ### __Materials__
 
 1. [Escherichia coli O157:H7 str. Sakai DNA, complete genome](https://www.ncbi.nlm.nih.gov/nuccore/BA000007) as .fna file in index directory. 
-2. Paired-end [E. coli sequence](https://www.ncbi.nlm.nih.gov/sra/SRX7753100[accn]) from GenomeTrakr Project: Washington State Department of Health
-3. Single-end [E. coli sequence](https://www.ncbi.nlm.nih.gov/sra/SRX7364424[accn]) from The University of Texas at Austin
+2. Paired-end [E. coli sequence](https://www.ncbi.nlm.nih.gov/sra/SRX7753100[accn]) from GenomeTrakr Project: Washington Stat  Department of Health as .fastq file in __reads__ directory. 
+3. Single-end [E. coli sequence](https://www.ncbi.nlm.nih.gov/sra/SRX7364424[accn]) from The University of Texas at Austin as .fastq file in __reads__ directory.
 
+
+___
 ### __Bowtie Syntax__
 ___
 bowtie-build:
