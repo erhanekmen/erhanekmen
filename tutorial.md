@@ -10,7 +10,7 @@ After quality control and optional adapter trimming of our data, alignment is us
 How does alignment algorithm work?
 
 <img src="aln.jpg" alt="rna"
-	title="RNA" width="350" height="350" />
+	title="RNA" width="650" height="350" />
 
 Reads are aligned to a reference sequence. The alignment process may allow one or more mismatches between each individual read and the reference sequence. The alignment of the reads generates a layout. Based on the majority base call, the layout produces a consensus sequence. 
 ___
