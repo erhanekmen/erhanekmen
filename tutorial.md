@@ -24,12 +24,15 @@ bowtie-build:
 
     bowtie-build [options]* <reference_in> <ebwt_base>
 
+__Main Arguments__
 
+    ebwt_base: The basename of the index to be inspected. The basename is name of any of the index files but with the .X.ebwt or .rev.X.ebwt suffix omitted. bowtie-inspect first looks in the current directory for the index files, then looks in the indexes subdirectory under the directory where the currently-running bowtie executable is located, then looks in the directory specified in the BOWTIE_INDEXES environment variable.
+    
 bowtie:
 
     bowtie [options]* <ebwt> {-1 <m1> -2 <m2> | --12 <r> | --interleaved <i> | <s>} [<hit>]
 
-__Main arguments__
+__Main Arguments__
 
     ebwt: The basename of the index to be searched. 
 
