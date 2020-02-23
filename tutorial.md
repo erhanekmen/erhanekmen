@@ -80,6 +80,16 @@ ___
 
        bowtie -p 2 index/e_coli -1 reads/b95edefdb9d82cb2423d97172223bbd4_1.fastq -2 reads/b95edefdb9d82cb2423d97172223bbd4_2.fastq e_coli_paired.map
 
+### __Challange__
+
+How can we increase the alignment rate for paired-end alignment?
+
+_Answer:_
+
+You may use -X command which corresponds to the maximum insert size for valid paired-end alignments. (Default = 250)
+
+Now, try the paired-end aligment with different insert size value.
+
 ___
 
 ### __Some Links__
