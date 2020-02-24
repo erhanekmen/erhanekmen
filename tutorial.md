@@ -74,11 +74,11 @@ ___
 
 4. Single-end Alignment (in .sh file):
 
-       bowtie index/e_coli reads/CZB152.solexa.fastq e_coli_solexa.map
+       bowtie index/e_coli reads/CZB152.solexa.fastq -S e_coli_solexa.sam
 
 5. Paired-end Alignment (in .sh file):
 
-       bowtie -p 2 index/e_coli -1 reads/b95edefdb9d82cb2423d97172223bbd4_1.fastq -2 reads/b95edefdb9d82cb2423d97172223bbd4_2.fastq e_coli_paired.map
+       bowtie -p 2 index/e_coli -1 reads/b95edefdb9d82cb2423d97172223bbd4_1.fastq -2 reads/b95edefdb9d82cb2423d97172223bbd4_2.fastq -S e_coli_paired.sam
 
 ### __Challange__
 
