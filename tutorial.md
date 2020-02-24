@@ -90,6 +90,11 @@ You may use -X command which corresponds to the maximum insert size for valid pa
 
 Now, try the paired-end aligment with different insert size value.
 
+### __Output__
+
+<p align="center">
+<img src="SAMv1_3.png" alt="rna"
+	title="RNA" width="650" height="250" />
 ___
 
 ### __Some Links__
