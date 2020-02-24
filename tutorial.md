@@ -68,15 +68,15 @@ ___
         gunzip *.gz
 
 
-3. Creating Index Files in __index__ directory (in .sh file):
+3. Creating Index Files in __index__ directory (in .sh file): (DO NOT FORGET TO LOAD YOUR MODULE)
 
        bowtie-build e_coli.fna e_coli
 
-4. Single-end Alignment (in .sh file):
+4. Single-end Alignment (in .sh file): (DO NOT FORGET TO LOAD YOUR MODULE)
 
        bowtie index/e_coli reads/CZB152.solexa.fastq -S e_coli_solexa.sam
 
-5. Paired-end Alignment (in .sh file):
+5. Paired-end Alignment (in .sh file): (DO NOT FORGET TO LOAD YOUR MODULE)
 
        bowtie -p 2 index/e_coli -1 reads/b95edefdb9d82cb2423d97172223bbd4_1.fastq -2 reads/b95edefdb9d82cb2423d97172223bbd4_2.fastq -S e_coli_paired.sam
 
